@@ -1,16 +1,20 @@
 {
-  "name": "openai-assistant-js",
+  "name": "openai-test",
   "version": "1.0.0",
-  "description": "A Node.js project to interact with the OpenAI API",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Jesse Weigel",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
     "openai": "^4.16.1"
+  },
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@tsconfig/node20": "^20.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   }
 }
